@@ -1,0 +1,55 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Courgette', sans-serif;
+}
+
+/*-----------------*/
+
+.hero-image{
+    background-image: url('../../../../public/images/banner1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    
+    .overlay{
+        position: absolute;
+        inset: 0 0 0 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    
+        .first-nav,  .second-nav{
+            width: 550px;
+    
+            li:hover{
+                background-color: $red;
+            }
+        }
+    
+        .hero-text{
+            height: calc(100vh - 154px);
+
+            h1{
+                max-width: 600px;
+                @media(max-width: 900px) {
+                    font-size: 2rem;
+                }
+                .big-font{
+                    font-size: 4rem;
+                    @media(max-width: 900px) {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
