@@ -12,6 +12,13 @@ h1,h2{
     font-family: 'Courgette', sans-serif;
 }
 
+.big-font{
+    font-size: 2.7rem;
+    @media(max-width: 800px) {
+        font-size: 2rem;
+    }
+}
+
 /*-----------------*/
 
 .hero-image{
@@ -42,12 +49,6 @@ h1,h2{
                 max-width: 600px;
                 @media(max-width: 900px) {
                     font-size: 2rem;
-                }
-                .big-font{
-                    font-size: 4rem;
-                    @media(max-width: 900px) {
-                        font-size: 2.5rem;
-                    }
                 }
             }
         }

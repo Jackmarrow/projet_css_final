@@ -16670,6 +16670,15 @@ h1, .h1, h2, .h2 {
   font-family: "Courgette", sans-serif;
 }
 
+.big-font {
+  font-size: 2.7rem;
+}
+@media (max-width: 800px) {
+  .big-font {
+    font-size: 2rem;
+  }
+}
+
 /*-----------------*/
 .hero-image {
   background-image: url("../../../../public/images/banner1.jpg");
@@ -16701,13 +16710,10 @@ h1, .h1, h2, .h2 {
     font-size: 2rem;
   }
 }
-.hero-image .overlay .hero-text h1 .big-font, .hero-image .overlay .hero-text .h1 .big-font {
-  font-size: 4rem;
-}
-@media (max-width: 900px) {
-  .hero-image .overlay .hero-text h1 .big-font, .hero-image .overlay .hero-text .h1 .big-font {
-    font-size: 2.5rem;
-  }
+
+.img-width {
+  width: 55vw;
+  max-width: 500px;
 }
 
 /*-------- Our story and our menu list -------*/
@@ -16717,18 +16723,6 @@ h1, .h1, h2, .h2 {
 .bg-theme .our-story {
   width: 85vw;
   max-width: 1200px;
-}
-.bg-theme .our-story .big-font {
-  font-size: 2.7rem;
-}
-@media (max-width: 800px) {
-  .bg-theme .our-story .big-font {
-    font-size: 2rem;
-  }
-}
-.bg-theme .our-story .img-width {
-  width: 55vw;
-  max-width: 500px;
 }
 .bg-theme .para {
   max-width: 600px;
@@ -16745,5 +16739,18 @@ h1, .h1, h2, .h2 {
 }
 
 /*-------- Chef section -------*/
+.chefs {
+  max-width: 1400px;
+}
+@media (max-width: 1000px) {
+  .chefs .chef {
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .chefs .chef {
+    width: 50%;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
