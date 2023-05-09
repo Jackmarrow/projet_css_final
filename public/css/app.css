@@ -17502,4 +17502,30 @@ h1, .h1, h2, .h2 {
   width: 900px;
 }
 
+.bg-testimonial {
+  background-image: url("../../../../public/images/testimonials_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-testimonial .testimonial-parent {
+  width: 1150px;
+}
+@media (max-width: 1000px) {
+  .bg-testimonial .testimonial-parent .groupe-element {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.bg-testimonial .testimonial-parent .groupe-element .testimonial {
+  width: 48%;
+}
+@media (max-width: 1000px) {
+  .bg-testimonial .testimonial-parent .groupe-element .testimonial {
+    width: 100%;
+  }
+}
+.bg-testimonial .testimonial-parent .groupe-element .testimonial .avatar {
+  width: 150px;
+}
+
 /*# sourceMappingURL=app.css.map */
