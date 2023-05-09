@@ -17230,4 +17230,8 @@ h1, .h1, h2, .h2 {
   font-size: 0.8rem;
 }
 
+.bg-footer {
+  height: 100px;
+}
+
 /*# sourceMappingURL=app.css.map */
