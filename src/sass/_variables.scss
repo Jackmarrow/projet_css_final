@@ -20,7 +20,7 @@ $spacer : 16px;
 $custom-spacers : (
     0 : 0,
     1 : $spacer*1 ,
-    2 : $spacer* 1.5,
+    2 : $spacer*1.5,
     3 : $spacer*2 ,
     4 : $spacer*2.5 ,
     5 : $spacer*3 ,
@@ -39,9 +39,9 @@ $custom-spacers : (
     18: $spacer*9.5, 
     19: $spacer*10, 
     20: $spacer*10.5, 
-    21: $spacer/1.5, 
-    22: $spacer/2, 
-    23: $spacer/2.5, 
+    21: $spacer*0.2, 
+    // 22: $spacer/2, 
+    // 23: $spacer/2.5, 
     
     );
 
