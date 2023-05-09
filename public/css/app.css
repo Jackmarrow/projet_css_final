@@ -16710,4 +16710,40 @@ h1, .h1, h2, .h2 {
   }
 }
 
+/*-------- Our story and our menu list -------*/
+.bg-theme {
+  background-image: url("../../../../public/images/main_bg.jpg");
+}
+.bg-theme .our-story {
+  width: 85vw;
+  max-width: 1200px;
+}
+.bg-theme .our-story .big-font {
+  font-size: 2.7rem;
+}
+@media (max-width: 800px) {
+  .bg-theme .our-story .big-font {
+    font-size: 2rem;
+  }
+}
+.bg-theme .our-story .img-width {
+  width: 55vw;
+  max-width: 500px;
+}
+.bg-theme .para {
+  max-width: 600px;
+}
+@media (max-width: 800px) {
+  .bg-theme .para {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 800px) {
+  .bg-theme .corner {
+    width: 70px;
+  }
+}
+
+/*-------- Chef section -------*/
+
 /*# sourceMappingURL=app.css.map */

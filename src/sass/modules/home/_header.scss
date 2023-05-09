@@ -21,7 +21,7 @@ h1,h2{
     background-position: center;
     background-size: cover;
     height:100vh;
-    
+
     .overlay{
         position: absolute;
         inset: 0 0 0 0;
@@ -51,5 +51,15 @@ h1,h2{
                 }
             }
         }
+
+        // .bg-bottom{
+        //     background-image: url('../images/bottom_decoration_img.png');
+        //     width: 100%;
+        //     height: 20px;
+        //     position: absolute;
+        //     bottom: -7px;
+        // }
+
     }
+
 }

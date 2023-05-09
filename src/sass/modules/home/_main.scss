@@ -1,0 +1,42 @@
+/*-------- Our story and our menu list -------*/
+
+.bg-theme{
+    background-image: url('../../../../public/images/main_bg.jpg');
+
+    .our-story{
+        width:85vw;
+        max-width: 1200px;
+
+        .big-font{
+            font-size: 2.7rem;
+            @media(max-width: 800px) {
+                font-size: 2rem;
+            }
+        }
+
+        .img-width{
+            width:55vw;
+            max-width: 500px;
+        }
+    }
+
+    .para{
+        max-width: 600px;
+
+        @media(max-width: 800px){
+            font-size: .8rem;
+        }
+    }
+
+    .corner{
+        @media(max-width: 800px) {
+            width: 70px;
+        }
+    }
+}
+
+/*-------- Chef section -------*/
+
+.chef{
+    
+}

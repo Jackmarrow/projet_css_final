@@ -1,84 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet</title>
-    <link rel="stylesheet" href="./public/css/app.css">
-</head>
-<body class="bg-black">
+    <link rel="stylesheet" href="./public/css/app.css" />
+  </head>
+  <body>
     <!-- header section -->
     <header class="hero-image">
-        <div class="overlay">
-            <nav class="d-flex justify-content-between align-items-center justify-content-lg-center p-2">
-              <ul class="first-nav d-none d-lg-flex nav border-top border-bottom justify-content-between">
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">HOME</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">ABOUT US</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">MENU LIST</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">TEAM</a>
-                </li>
-              </ul>
-              <div>
-                <img class="px-3 mb-0 mb-lg-1" src="./public/images/logo.png" alt="logo" />
-              </div>
-              <ul class="second-nav d-none d-lg-flex nav border-top border-bottom justify-content-between">
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">RESERVATION</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">BLOG</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">TESTIMONIALS</a>
-                </li>
-                <li class="">
-                  <a class="nav-link text-white px-2 py-1" href="#">CONTACT US</a>
-                </li>
-              </ul>
-              <div class="d-md-block d-lg-none">
-                <img src="./public/images/menu-bar.png" alt="menu bar">
-              </div>
-            </nav>
+      <div class="overlay">
+        <nav
+          class="d-flex justify-content-between align-items-center justify-content-lg-center p-2"
+        >
+          <ul
+            class="first-nav d-none d-lg-flex nav border-top border-bottom justify-content-between"
+          >
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">HOME</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">ABOUT US</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">MENU LIST</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">TEAM</a>
+            </li>
+          </ul>
+          <div>
+            <img
+              class="px-3 mb-0 mb-lg-1"
+              src="./public/images/logo.png"
+              alt="logo"
+            />
+          </div>
+          <ul
+            class="second-nav d-none d-lg-flex nav border-top border-bottom justify-content-between"
+          >
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">RESERVATION</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">BLOG</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white px-2 py-1" href="#">CONTACT US</a>
+            </li>
+          </ul>
+          <div class="d-md-block d-lg-none">
+            <img src="./public/images/menu-bar.png" alt="menu bar" />
+          </div>
+        </nav>
 
-            <section class="hero-text px-1 px-md-0 d-flex flex-column align-items-center justify-content-center">
-                <h1 class="text-white text-center mb-5">Whatever your <span class="big-font">OCCASION, <span class="text-red">TASTE</span> makes</span> it one to <span class="big-font">remember</span></h1>
-                <div class="text-center">
-                    <button class="bg-light-gray px-2 py-1 mb-2 mb-sm-0 border-0 rounded-pill mx-1">PURCHASE THEME</button>
-                    <button class="bg-red px-2 py-1 text-white border-0 rounded-pill mx-1">LEARN MORE</button>
-                </div>
-            </section>
-        </div>    
+        <section
+          class="hero-text px-1 px-md-0 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h1 class="text-white text-center mb-5">
+            Whatever your
+            <span class="big-font"
+              >OCCASION, <span class="text-red">TASTE</span> makes</span
+            >
+            it one to <span class="big-font">remember</span>
+          </h1>
+          <div class="text-center">
+            <button
+              class="bg-light-gray px-2 py-1 mb-2 mb-sm-0 border-0 rounded-pill mx-1"
+            >
+              PURCHASE THEME
+            </button>
+            <button
+              class="bg-red px-2 py-1 text-white border-0 rounded-pill mx-1"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </section>
+        <div class="bg-bottom"></div>
+      </div>
     </header>
 
+    <main>
+      <!-- Our story -->
+      <section class="py-3 bg-theme d-flex justify-content-center">
+        <div class="bg-white py-3 our-story position-relative">
+          <div class="text-center mb-4">
+            <h2 class="fs-md-6"><span class="text-red big-font">OUR</span> Story</h2>
+            <img class="img-width" src="./public/images/decoration_line.png" alt="" />
+          </div>
+          <p class="text-center mb-4 mx-auto px-1 para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id error
+            quibusdam laudantium velit quis repellat, consequuntur expedita
+            laborum placeat modi ex voluptatibus illo odit quaerat, commodi non
+            aliquid quod et, magni corrupti autem eligendi! Debitis consectetur
+            porro doloribus eaque quaerat nam sequi accusantium ducimus
+            molestiae ab deserunt accusamus laboriosam, neque facilis quidem
+            aliquam ad provident nemo? Tenetur architecto nulla consequuntur
+            ullam suscipit eaque tempora consequatur, recusandae harum culpa
+            neque molestiae.
+          </p>
+          <div class="text-center">
+              <h2 class="fs-md-6"><span class="text-red big-font">OUR</span> Menu List</h2>
+              <img class="img-width" src="./public/images/decoration_line.png" alt="" />
+          </div>
+          <img class="corner position-absolute top-0 end-0" src="./public/images/box-right-top.png" alt="">
+          <img class="corner position-absolute top-0 start-0" src="./public/images/box-left-top.png" alt="">
+          <img class="corner position-absolute bottom-0 start-0" src="./public/images/box-bottom-left.png" alt="">
+          <img class="corner position-absolute bottom-0 end-0" src="./public/images/box-bottom_right.png" alt="">
+        </div>
+      </section>
 
+      <section class="chef">
+        <div class="text-center mb-4">
+          <h2 class="fs-md-6"><span class="text-red big-font">MEET</span> Story</h2>
+          <img class="img-width" src="./public/images/decoration_line.png" alt="" />
+        </div>
+        <div class="">
+          <div class="">
+            <div class="">
+              <img src="./public/images/chef1.png" alt="">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="">
+              <img src="./public/images/chef1.png" alt="">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="">
+              <img src="./public/images/chef1.png" alt="">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="">
+              <img src="./public/images/chef1.png" alt="">
+              <p>Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </main>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-</body>
+  </body>
 </html>
