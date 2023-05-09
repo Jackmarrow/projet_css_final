@@ -3,6 +3,12 @@
     max-width: 500px;
 }
 
+.corner{
+    @media(max-width: 800px) {
+        width: 70px;
+    }
+}
+
 /*-------- Our story and our menu list -------*/
 
 .bg-theme{
@@ -20,12 +26,6 @@
             font-size: .8rem;
         }
     }
-
-    .corner{
-        @media(max-width: 800px) {
-            width: 70px;
-        }
-    }
 }
 
 /*-------- Chef section -------*/
@@ -40,5 +40,51 @@
         @media(max-width: 575px) {
             width: 50%; 
         }
+    }
+}
+
+.reservation{
+    background-image: url('../../../../public/images/main_bg.jpg');
+
+    .book-table{
+        width:85vw;
+        max-width: 1200px;
+    }
+
+    .bg-contact{
+        background-image: url('../../../../public/images/book_table_bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // height: 500px;
+        max-width: 700px;
+
+        .grid-contact{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 1rem;
+            column-gap: 2rem;
+            width: 85%;
+            @media(max-width: 700px) {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+    }
+
+    .our-blog{
+        width: 900px;
+
+        // .font-ticket{
+        //     width:auto;
+
+        //     @media(max-width: 700px) {
+                
+        //     }
+        // }
+
+        // .blog-dish{
+        //     width: 47%;
+        // }
     }
 }
