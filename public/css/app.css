@@ -17049,7 +17049,7 @@ h1, .h1, h2, .h2 {
 
 /*-----------------*/
 .hero-image {
-  background-image: url("../../../../public/images/banner1.jpg");
+  background-image: url("../images/banner1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -17097,7 +17097,7 @@ h1, .h1, h2, .h2 {
 
 /*-------- Our story and our menu list -------*/
 .bg-theme {
-  background-image: url("../../../../public/images/main_bg.jpg");
+  background-image: url("../images/main_bg.jpg");
 }
 .bg-theme .our-story {
   width: 85vw;
@@ -17113,29 +17113,35 @@ h1, .h1, h2, .h2 {
 }
 
 /*-------- Chef section -------*/
-.chefs {
+.back-team {
+  background-image: url("../images/team_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back-team .chefs {
   max-width: 1400px;
 }
 @media (max-width: 1000px) {
-  .chefs .chef {
+  .back-team .chefs .chef {
     width: 80%;
   }
 }
 @media (max-width: 575px) {
-  .chefs .chef {
+  .back-team .chefs .chef {
     width: 50%;
   }
 }
 
 .reservation {
-  background-image: url("../../../../public/images/main_bg.jpg");
+  background-image: url("../images/main_bg.jpg");
 }
 .reservation .book-table {
   width: 85vw;
   max-width: 1200px;
 }
 .reservation .bg-contact {
-  background-image: url("../../../../public/images/book_table_bg.jpg");
+  background-image: url("../images/book_table_bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17161,7 +17167,7 @@ h1, .h1, h2, .h2 {
 }
 
 .bg-testimonial {
-  background-image: url("../../../../public/images/testimonials_background.jpg");
+  background-image: url("../images/testimonials_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -17187,14 +17193,14 @@ h1, .h1, h2, .h2 {
 }
 
 .reach-us {
-  background-image: url("../../../../public/images/main_bg.jpg");
+  background-image: url("../images/main_bg.jpg");
 }
 .reach-us .contact-width {
   max-width: 450px;
 }
 
 .back-footer {
-  background-image: url("../../../../public/images/footer_background.jpg");
+  background-image: url("../images/footer_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
