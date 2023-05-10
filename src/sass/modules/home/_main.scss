@@ -74,25 +74,15 @@
 
     .our-blog{
         width: 900px;
-
-        // .font-ticket{
-        //     width:auto;
-
-        //     @media(max-width: 700px) {
-                
-        //     }
-        // }
-
-        // .blog-dish{
-        //     width: 47%;
-        // }
+        .para{
+            font-size: clamp(.8rem, 3vw, 1rem);
+        }
     }
 
 }
 
 .bg-testimonial{
     background-image: url("../../../../public/images/testimonials_background.jpg");
-    // background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 

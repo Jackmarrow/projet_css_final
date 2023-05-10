@@ -14,7 +14,14 @@ h1,h2{
 
 .big-font{
     font-size: 2.7rem;
-    @media(max-width: 800px) {
+    @media(max-width: 900px) {
+        font-size: 2rem;
+    }
+}
+
+.head-font{
+    font-size: 4rem;
+    @media(max-width: 900px) {
         font-size: 2rem;
     }
 }
@@ -45,6 +52,10 @@ h1,h2{
         .hero-text{
             height: calc(100vh - 154px);
 
+            @media(max-width: 900px) {
+                height: calc(100vh - 91.77px);
+            }
+
             h1{
                 max-width: 600px;
                 @media(max-width: 900px) {
@@ -52,14 +63,6 @@ h1,h2{
                 }
             }
         }
-
-        // .bg-bottom{
-        //     background-image: url('../images/bottom_decoration_img.png');
-        //     width: 100%;
-        //     height: 20px;
-        //     position: absolute;
-        //     bottom: -7px;
-        // }
 
     }
 

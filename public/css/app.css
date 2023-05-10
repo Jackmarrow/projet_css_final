@@ -17032,8 +17032,17 @@ h1, .h1, h2, .h2 {
 .big-font {
   font-size: 2.7rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .big-font {
+    font-size: 2rem;
+  }
+}
+
+.head-font {
+  font-size: 4rem;
+}
+@media (max-width: 900px) {
+  .head-font {
     font-size: 2rem;
   }
 }
@@ -17060,6 +17069,11 @@ h1, .h1, h2, .h2 {
 }
 .hero-image .overlay .hero-text {
   height: calc(100vh - 154px);
+}
+@media (max-width: 900px) {
+  .hero-image .overlay .hero-text {
+    height: calc(100vh - 91.77px);
+  }
 }
 .hero-image .overlay .hero-text h1, .hero-image .overlay .hero-text .h1 {
   max-width: 600px;
@@ -17141,6 +17155,9 @@ h1, .h1, h2, .h2 {
 }
 .reservation .our-blog {
   width: 900px;
+}
+.reservation .our-blog .para {
+  font-size: clamp(0.8rem, 3vw, 1rem);
 }
 
 .bg-testimonial {
