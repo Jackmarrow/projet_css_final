@@ -17025,7 +17025,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1, .h1, h2, .h2 {
+h1, .h1, h2, .h2, .style-font {
   font-family: "Courgette", sans-serif;
 }
 
@@ -17103,6 +17103,38 @@ h1, .h1, h2, .h2 {
   width: 85vw;
   max-width: 1200px;
 }
+.bg-theme .our-story .tabs-element {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .bg-theme .our-story .tabs-element {
+    max-width: 200px;
+  }
+}
+.bg-theme .our-story .tabs-element .active {
+  background-color: transparent !important;
+  border-right: 5px solid #b02939;
+}
+.bg-theme .our-story .tabs-element .active i {
+  color: #b02939;
+}
+.bg-theme .our-story .tabs-element i {
+  color: #a6a6a6;
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .bg-theme .our-story .tabs-element i {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .bg-theme .our-story .tabs-element i {
+    font-size: 2rem;
+  }
+}
+.bg-theme .our-story .tab-content .image {
+  max-width: 110px;
+}
 .bg-theme .para {
   max-width: 600px;
 }
@@ -17145,7 +17177,7 @@ h1, .h1, h2, .h2 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 700px;
+  max-width: 800px;
 }
 .reservation .bg-contact .grid-contact {
   display: grid;
@@ -17163,7 +17195,17 @@ h1, .h1, h2, .h2 {
   width: 900px;
 }
 .reservation .our-blog .para {
-  font-size: clamp(0.8rem, 3vw, 1rem);
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  width: 100%;
+  max-width: 350px;
+}
+.reservation .our-blog .para .font-sizing {
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .reservation .our-blog .para .font-sizing {
+    font-size: 1rem;
+  }
 }
 
 .bg-testimonial {
