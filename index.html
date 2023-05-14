@@ -9,11 +9,11 @@
   </head>
   <body>
     <!-- header section -->
-    <header class="hero-image">
+    <header class="hero-image position-relative">
       <div class="overlay">
         <!-- nav-bar section -->
         <nav
-          class="d-flex justify-content-between align-items-center justify-content-lg-center p-21 p-md-2"
+          class="nav-bar d-flex justify-content-between align-items-center justify-content-lg-center p-2"
         >
           <ul
             class="first-nav d-none d-lg-flex nav border-top border-bottom justify-content-between"
@@ -61,7 +61,7 @@
         <!-- end of navbar section -->
         <!-- hero section -->
         <section
-          class="hero-text px-1 px-md-0 d-flex flex-column align-items-center justify-content-center"
+          class="hero-text px-1 px-md-0 position-absolute top-50 start-50 translate-middle"
         >
           <h1 class="text-white text-center mb-2 mb-md-5">
             Whatever your
@@ -83,8 +83,9 @@
             </button>
           </div>
         </section>
-        <!-- end of hero section -->
       </div>
+      <!-- end of hero section -->
+      <div class="bottom-background position-absolute bottom-0"></div>
     </header>
 
     <main>
@@ -575,7 +576,7 @@
               alt=""
             />
           </div>
-          <div class="bg-contact mx-auto py-5 px-5 mb-8 rounded">
+          <div class="bg-contact mx-auto py-5 px-2 px-md-5 mb-8 rounded">
             <p class="text-center text-white mb-3">
               For any query please call us at : <span class="fs-4">+91-1234567890</span>
             </p>
@@ -752,7 +753,9 @@
     </main>
 
     <!-- footer section -->
-    <footer class="px-1 back-footer bg-black py-6 d-flex justify-content-center">
+    <footer class="px-1 back-footer bg-black py-6 d-flex justify-content-center position-relative">
+      <div class="top-background position-absolute top-0">
+      </div>
       <div class="footer-parent">
         <div class="footer-container d-flex justify-content-between flex-wrap">
           <div class="text-white content mb-5 mb-lg-0">

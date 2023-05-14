@@ -17068,20 +17068,18 @@ h1, .h1, h2, .h2, .style-font {
   background-color: #b02939;
 }
 .hero-image .overlay .hero-text {
-  height: calc(100vh - 154px);
-}
-@media (max-width: 900px) {
-  .hero-image .overlay .hero-text {
-    height: calc(100vh - 91.77px);
-  }
-}
-.hero-image .overlay .hero-text h1, .hero-image .overlay .hero-text .h1 {
-  max-width: 600px;
+  width: 100vw;
+  max-width: 700px;
 }
 @media (max-width: 900px) {
   .hero-image .overlay .hero-text h1, .hero-image .overlay .hero-text .h1 {
     font-size: 2rem;
   }
+}
+.hero-image .bottom-background {
+  background-image: url("../images/bottom_decoration_img.png");
+  height: 10px;
+  width: 100%;
 }
 
 .img-width {
@@ -17165,6 +17163,7 @@ h1, .h1, h2, .h2, .style-font {
   }
 }
 
+/* --------- book table and blog section --------*/
 .reservation {
   background-image: url("../images/main_bg.jpg");
 }
@@ -17208,6 +17207,7 @@ h1, .h1, h2, .h2, .style-font {
   }
 }
 
+/* ------- testimonial section -------*/
 .bg-testimonial {
   background-image: url("../images/testimonials_background.jpg");
   background-size: cover;
@@ -17246,6 +17246,11 @@ h1, .h1, h2, .h2, .style-font {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.back-footer .top-background {
+  background-image: url("../images/footer_bottom_decoration_img.png");
+  height: 10px;
+  width: 100%;
 }
 .back-footer .footer-parent {
   width: 1250px;

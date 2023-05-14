@@ -40,6 +40,10 @@ h1,h2,.style-font{
         position: absolute;
         inset: 0 0 0 0;
         background-color: rgba(0, 0, 0, 0.8);
+
+        .nav-bar{
+          
+        }
     
         .first-nav,  .second-nav{
             width: 550px;
@@ -50,20 +54,24 @@ h1,h2,.style-font{
         }
     
         .hero-text{
-            height: calc(100vh - 154px);
-
-            @media(max-width: 900px) {
-                height: calc(100vh - 91.77px);
-            }
-
+            // height: calc(100vh - 15vh);
+           width: 100vw;
+           max-width: 700px;
             h1{
-                max-width: 600px;
+                // max-width: 600px;
                 @media(max-width: 900px) {
                     font-size: 2rem;
                 }
             }
         }
 
+    }
+
+    .bottom-background{
+        background-image: url('../images/bottom_decoration_img.png');
+        height: 10px;
+        width: 100%;
+        
     }
 
 }
